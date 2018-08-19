@@ -32,7 +32,6 @@ public class SingleNumber {
             } else {
                 hashMap.put(array[i], 1);
             }
-
         }
 
         for (Map.Entry<Integer, Integer> iterator : hashMap.entrySet()) {
