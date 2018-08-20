@@ -1,6 +1,14 @@
 package leetcode.linkedlists;
 
 public class LinkedList {
+    public static Node getHead() {
+        return head;
+    }
+
+    public static void setHead(Node head) {
+        LinkedList.head = head;
+    }
+
     static Node head;
 
     public void append(int data) {
@@ -15,6 +23,18 @@ public class LinkedList {
             temp.next = new Node(data);
         }
 
+    }
+
+    public void append2(Node head1, int data){
+        if (head1 == null) {
+            head1 = new Node(data);
+        } else {
+            Node temp = head1;
+            while (temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = new Node(data);
+        }
     }
 
     public void show(Node head) {

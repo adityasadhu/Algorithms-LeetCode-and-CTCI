@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/DeleteNodeInALinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/MergeTwoSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arrays/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arrays/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,36 +33,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SingleNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/SingleNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="225">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +60,8 @@
       <file leaf-file-name="RemoveNthNodeFromEndOfList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="360">
+              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -95,17 +69,44 @@
       <file leaf-file-name="PallindromeLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="300">
               <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedlistCycle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedlistCycle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="333">
               <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaximumMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isUnique.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/isUnique.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeTwoSortedLists.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/MergeTwoSortedLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -115,24 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/RomanToInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ValidAnagram.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ValidAnagram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -192,12 +175,13 @@
         <option value="$PROJECT_DIR$/src/leetcode/arrays/SingleNumber.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/Node.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/DeleteNodeInALinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/MergeTwoSortedLists.java" />
       </list>
     </option>
   </component>
@@ -254,6 +238,12 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -277,9 +267,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedlistCycle">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.LinkedList" />
+  <component name="RunManager" selected="Application.MergeTwoSortedLists">
+    <configuration name="LinkedlistCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.LinkedlistCycle" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -288,8 +278,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LinkedlistCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.LinkedlistCycle" />
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.MergeTwoSortedLists" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -329,19 +319,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
       <item itemvalue="Application.ReverseLinkedLisrt" />
       <item itemvalue="Application.PallindromeLinkedList" />
       <item itemvalue="Application.LinkedlistCycle" />
+      <item itemvalue="Application.MergeTwoSortedLists" />
+      <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedLists" />
+        <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
         <item itemvalue="Application.LinkedlistCycle" />
         <item itemvalue="Application.PallindromeLinkedList" />
         <item itemvalue="Application.ReverseLinkedLisrt" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +357,7 @@
       <workItem from="1533862276649" duration="5429000" />
       <workItem from="1533921978656" duration="770000" />
       <workItem from="1534354221647" duration="14982000" />
-      <workItem from="1534607460163" duration="7549000" />
+      <workItem from="1534607460163" duration="9967000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -418,11 +408,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534392505418</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new problems added">
+      <created>1534710708531</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534710708531</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53491000" />
+    <option name="totallyTimeSpent" value="55909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,6 +432,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970452" />
@@ -445,13 +443,13 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50214595" side_tool="true" weight="0.2830424" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.2830424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.2830424" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970452" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.28540772" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3298969" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.28540772" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2496318" />
       <window_info id="UI Designer" order="4" />
@@ -479,20 +477,14 @@
     <MESSAGE value="PlusOne Problem" />
     <MESSAGE value="Product of array problem added" />
     <MESSAGE value="problems added" />
-    <option name="LAST_COMMIT_MESSAGE" value="problems added" />
+    <MESSAGE value="new problems added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new problems added" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="uml://JAVA/FirstUniqueChar">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -594,34 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaximumMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/isUnique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/JudgeRouteCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -794,10 +758,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="405">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaximumMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/JudgeRouteCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#1238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -808,31 +803,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="300">
           <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="333">
           <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
