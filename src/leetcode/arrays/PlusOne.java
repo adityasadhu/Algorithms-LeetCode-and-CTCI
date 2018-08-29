@@ -21,8 +21,8 @@ public class PlusOne {
             temp[0] = 1;
             for (int j = 1; j < temp.length; j++) {
                 temp[j] = array[j - 1];
-                return temp;
             }
+            return temp;
         }
         return array;
     }

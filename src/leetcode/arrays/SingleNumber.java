@@ -21,7 +21,7 @@ import java.util.Map;
 
 public class SingleNumber {
 
-
+    //with extra memory
     static public int answer(int[] array) {
 
         HashMap<Integer, Integer> hashMap = new HashMap<>();
@@ -39,12 +39,23 @@ public class SingleNumber {
         }
         return -1;
     }
+    //without extra memory
+
+
+    static public int answer2(int[] array) {
+        for (int i = 1; i < array.length; i++) {
+            array[0] ^= array[i];
+        }
+
+        return array[0];
+    }
+
 
     public static void main(String[] args) {
 
         int[] array = {4, 1, 2, 1, 2};
 
-        int answer = answer(array);
+        int answer = answer2(array);
 
         System.out.println(answer);
     }
