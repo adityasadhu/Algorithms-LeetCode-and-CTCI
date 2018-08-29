@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/ValidPallindrome.java" afterDir="false" />
+    <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="added problem ValidPallindrome">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/strings/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/strings/ValidAnagram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,22 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidPallindrome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidPallindrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ValidPallindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="409">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#1115#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveDuplicatesFromSortedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/RemoveDuplicatesFromSortedArray.java">
+      <file leaf-file-name="LongestCommonPrefix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/LongestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="135">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
-                <element signature="e#0#947#0" expanded="true" />
+                <element signature="e#0#554#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/strings/FirstUniqueCharacter.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/ValidAnagram.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/ValidPallindrome.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/strings/LongestCommonPrefix.java" />
       </list>
     </option>
   </component>
@@ -289,7 +292,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidPallindrome">
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.strings.LongestCommonPrefix" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.PlusOne" />
       <module name="BloombergLeetCodeSection" />
@@ -302,16 +315,6 @@
     </configuration>
     <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.RemoveDuplicatesFromSortedArray" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.RemoveElement" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -341,19 +344,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveElement" />
       <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
       <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.ValidPallindrome" />
+      <item itemvalue="Application.LongestCommonPrefix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.ValidPallindrome" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
-        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +385,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="3816000" />
+      <workItem from="1535414215700" duration="6029000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -475,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535573594218</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added problem ValidPallindrome">
+      <created>1535574521725</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1535574521725</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63711000" />
+    <option name="totallyTimeSpent" value="65924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,18 +552,14 @@
     <MESSAGE value="added problem description for ContainsDuplicate" />
     <MESSAGE value="added problem description for TwoSum" />
     <MESSAGE value="added problem description for firstUniqueCharacter" />
-    <option name="LAST_COMMIT_MESSAGE" value="added problem description for firstUniqueCharacter" />
+    <MESSAGE value="added problem ValidPallindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="added problem ValidPallindrome" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9105" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -891,8 +897,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ValidPallindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="409">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#1115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
