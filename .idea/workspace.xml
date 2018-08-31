@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/PascalTriangle.java" afterDir="false" />
+    <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="added Array Problem">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arrays/FindAllNumbersDisappearedInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arrays/FindAllNumbersDisappearedInArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,18 +39,6 @@
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="e#0#1207#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaximumSubArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/MaximumSubArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#512#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,14 +95,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindAllNumbersDisappearedInArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindAllNumbersDisappearedInArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/FindAllNumbersDisappearedInArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="769">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#0#527#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainsDuplicate2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#537#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/URLify.java" />
         <option value="$PROJECT_DIR$/src/stringRotation.java" />
         <option value="$PROJECT_DIR$/src/StringBuilderExample.java" />
         <option value="$PROJECT_DIR$/src/leetcode/test.java" />
@@ -210,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/arrays/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/PascalTriangle.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/FindAllNumbersDisappearedInArray.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate2.java" />
       </list>
     </option>
   </component>
@@ -302,9 +301,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindAllNumbersDisappearedInArray">
-    <configuration name="FindAllNumbersDisappearedInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.FindAllNumbersDisappearedInArray" />
+  <component name="RunManager" selected="Application.ContainsDuplicate2">
+    <configuration name="ContainsDuplicate2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.ContainsDuplicate2" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -313,8 +312,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.MaximumSubArray" />
+    <configuration name="FindAllNumbersDisappearedInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.FindAllNumbersDisappearedInArray" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -354,19 +353,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.MaximumSubArray" />
       <item itemvalue="Application.RemoveElement" />
       <item itemvalue="Application.TwoSumSorted" />
       <item itemvalue="Application.FindAllNumbersDisappearedInArray" />
       <item itemvalue="Application.TrappingRainWater" />
+      <item itemvalue="Application.ContainsDuplicate2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainsDuplicate2" />
         <item itemvalue="Application.FindAllNumbersDisappearedInArray" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.TwoSumSorted" />
         <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.MaximumSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +394,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="27931000" />
+      <workItem from="1535414215700" duration="28708000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -551,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535750366413</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added better solution for FindAllNumbersDisappearedInArray">
+      <created>1535751916746</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1535751916746</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87826000" />
+    <option name="totallyTimeSpent" value="88603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,7 +633,8 @@
     <MESSAGE value="ArrayProblem MaximumSubArray" />
     <MESSAGE value="ArrayProblem TwoSumSorted" />
     <MESSAGE value="ArrayProblem FindAllNumbersDisappearedInArray, TrappingRainWater" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayProblem FindAllNumbersDisappearedInArray, TrappingRainWater" />
+    <MESSAGE value="added better solution for FindAllNumbersDisappearedInArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="added better solution for FindAllNumbersDisappearedInArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,13 +646,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/BestTimeToBuySellStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/BestTimeToBuySellStock2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1034,11 +1034,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/FindAllNumbersDisappearedInArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="769">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#0#527#0" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#537#0" expanded="true" />
           </folding>
         </state>
       </provider>
