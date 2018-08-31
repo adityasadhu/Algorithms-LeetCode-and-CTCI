@@ -20,8 +20,8 @@ import java.util.List;
 
 public class FindAllNumbersDisappearedInArray {
 
-
-    static public List<Integer> answer (int[] array){
+    //with using extra space
+    static public List<Integer> answer(int[] array) {
 
         List<Integer> answer = new ArrayList<>();
         HashSet<Integer> hashSet = new HashSet<>();
@@ -29,7 +29,7 @@ public class FindAllNumbersDisappearedInArray {
             hashSet.add(array[i]);
         }
         for (int i = 1; i < array.length; i++) {
-            if(!hashSet.contains(i)){
+            if (!hashSet.contains(i)) {
                 answer.add(i);
             }
         }
@@ -37,11 +37,32 @@ public class FindAllNumbersDisappearedInArray {
 
     }
 
+
+    //better solution mark all the seen elements negative and iterate again and add numbers which are not negative to an array
+
+    static public List<Integer> answer2(int[] array) {
+
+        List<Integer> answer = new ArrayList<>();
+        for (int i = 0; i < array.length; i++) {
+            int value = Math.abs(array[i]) - 1;
+            if (array[value] > 0) {
+                array[value] = -array[value];
+            }
+        }
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > 0) {
+                answer.add(i + 1);
+            }
+
+        }
+        return answer;
+    }
+
     public static void main(String[] args) {
 
-        int[] array ={4,3,2,7,8,2,3,1};
-        List<Integer> answer = answer(array);
-        for(int i : answer){
+        int[] array = {4, 3, 2, 7, 8, 2, 3, 1};
+        List<Integer> answer = answer2(array);
+        for (int i : answer) {
             System.out.println(i);
         }
 
