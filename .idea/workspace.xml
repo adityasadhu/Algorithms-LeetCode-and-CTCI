@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="added Array Problem">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,8 +108,8 @@
       <file leaf-file-name="ContainsDuplicate2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="261">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding>
                 <element signature="e#0#537#0" expanded="true" />
               </folding>
@@ -301,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainsDuplicate2">
+  <component name="RunManager" selected="Application.MissingNumber">
     <configuration name="ContainsDuplicate2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.ContainsDuplicate2" />
       <module name="BloombergLeetCodeSection" />
@@ -322,8 +319,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.RemoveElement" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.MissingNumber" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -353,19 +350,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveElement" />
       <item itemvalue="Application.TwoSumSorted" />
       <item itemvalue="Application.FindAllNumbersDisappearedInArray" />
       <item itemvalue="Application.TrappingRainWater" />
       <item itemvalue="Application.ContainsDuplicate2" />
+      <item itemvalue="Application.MissingNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.ContainsDuplicate2" />
         <item itemvalue="Application.FindAllNumbersDisappearedInArray" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.TwoSumSorted" />
-        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +391,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="28708000" />
+      <workItem from="1535414215700" duration="28898000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -557,11 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535751916746</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added Array Problem ContainsDuplicate2">
+      <created>1535752851320</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1535752851320</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88603000" />
+    <option name="totallyTimeSpent" value="88793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,12 +589,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50214595" side_tool="true" weight="0.2830424" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.2830424" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.2830424" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970452" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
@@ -634,7 +638,8 @@
     <MESSAGE value="ArrayProblem TwoSumSorted" />
     <MESSAGE value="ArrayProblem FindAllNumbersDisappearedInArray, TrappingRainWater" />
     <MESSAGE value="added better solution for FindAllNumbersDisappearedInArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="added better solution for FindAllNumbersDisappearedInArray" />
+    <MESSAGE value="added Array Problem ContainsDuplicate2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Array Problem ContainsDuplicate2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1045,8 +1050,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="261">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="e#0#537#0" expanded="true" />
           </folding>
