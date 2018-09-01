@@ -28,4 +28,46 @@ package leetcode.arrays;
 public class BestTimeToBuySellStock2 {
 
 
+    // we can solve this by using peak valley approach where the concept is that we get the maximum profit if
+    // we sell the stock if we find a immediate rise in the value(peak) followed by a less value(valley)
+    static public int peakValleyApproach(int[] heights) {
+
+        int i = 0;
+        int valley = 0;
+        int peak = 0;
+        int maxProfit = 0;
+        while (i < heights.length - 1) {
+            while (i < heights.length - 1 && heights[i] >= heights[i + 1]) {
+                i++;
+            }
+            valley = heights[i];
+            while (i < heights.length - 1 && heights[i] < heights[i + 1]) {
+                i++;
+            }
+            peak = heights[i];
+            maxProfit += peak - valley;
+        }
+        return maxProfit;
+    }
+
+
+    static public int peakValleyApproachOptimized(int[] heights){
+        int maxprofit = 0;
+        for (int i = 1; i < heights.length; i++) {
+            if (heights[i] > heights[i - 1])
+                maxprofit += heights[i] - heights[i - 1];
+        }
+        return maxprofit;
+    }
+
+
+    public static void main(String[] args) {
+
+        int[] heights = {1,2,3,4,5};
+        int answer = peakValleyApproachOptimized(heights);
+        System.out.println(answer);
+
+    }
+
+
 }
