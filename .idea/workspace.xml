@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,16 +96,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveDups.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveDups.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="e#151#152#0" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReturnKthToLast.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,15 +150,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmallestSubstringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SmallestSubstringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-370">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -161,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/strings/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/Node.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/DeleteNodeInALinkedList.java" />
@@ -212,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/ListNode.java" />
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java" />
+        <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java" />
       </list>
     </option>
   </component>
@@ -311,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveDups">
+  <component name="RunManager" selected="Application.ReturnKthToLast">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ctci.LinkedLists.LinkedList" />
       <module name="BloombergLeetCodeSection" />
@@ -324,6 +330,16 @@
     </configuration>
     <configuration name="RemoveDups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ctci.LinkedLists.RemoveDups" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ctci.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ReturnKthToLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ctci.LinkedLists.ReturnKthToLast" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -352,24 +368,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="palindromePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="palindromePermutation" />
-      <module name="BloombergLeetCodeSection" />
-    </configuration>
     <list>
-      <item itemvalue="Application.palindromePermutation" />
       <item itemvalue="Application.oneAway" />
       <item itemvalue="Application.RotateMatrix" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.RemoveDups" />
+      <item itemvalue="Application.ReturnKthToLast" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReturnKthToLast" />
         <item itemvalue="Application.RemoveDups" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.RotateMatrix" />
         <item itemvalue="Application.oneAway" />
-        <item itemvalue="Application.palindromePermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +410,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="48549000" />
+      <workItem from="1535414215700" duration="48899000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -652,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535837905837</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Added linkedList problem RemoveDups">
+      <created>1535840372692</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1535840372692</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108444000" />
+    <option name="totallyTimeSpent" value="108794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,12 +699,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.2830424" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.2830424" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.2830424" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970452" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
@@ -708,7 +727,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added problem description for TwoSum" />
     <MESSAGE value="added problem description for firstUniqueCharacter" />
     <MESSAGE value="added problem ValidPallindrome" />
     <MESSAGE value="added problem LongestCommonPrefix" />
@@ -733,7 +751,8 @@
     <MESSAGE value="added String Problem oneAway" />
     <MESSAGE value="added Array Problem rotateMatrix" />
     <MESSAGE value="Added linkedList basic implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added linkedList basic implementation" />
+    <MESSAGE value="Added linkedList problem RemoveDups" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added linkedList problem RemoveDups" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,13 +764,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/CountZeros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/strings/FirstUniqueCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1162,13 +1174,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="e#151#152#0" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
