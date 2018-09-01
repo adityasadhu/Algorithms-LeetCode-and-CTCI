@@ -6,6 +6,8 @@
 
 package leetcode.arrays;
 
+import java.util.Map;
+
 public class BestTimeToBuySellStock {
 
     static public int answer (int[] array){
@@ -19,24 +21,22 @@ public class BestTimeToBuySellStock {
         return globalProfit;
     }
 
-
+    // instead of checking all the possibilities if we can keep track of the minPrice (as our
+    // goal is to find the max profit which is always most biggest price minus the most smallest price)
+    // with this approach we can easily find the maxprofit in one pass
     static public int answer2(int[] array) {
         int maxProfit = 0;
         int minPrice = Integer.MAX_VALUE;
-
         for (int i = 0; i < array.length; i++) {
-            if (array[i] < minPrice) {
-                minPrice = array[i];
-            } else if (maxProfit < array[i] - minPrice) {
-                maxProfit = array[i] - minPrice;
-            }
+            minPrice = Math.min(minPrice, array[i]);
+            maxProfit = Math.max(maxProfit, array[i] - minPrice);
         }
         return maxProfit;
     }
 
     public static void main(String[] args) {
         int[] array = {7, 1, 5, 3, 6, 4};
-        int answer = answer(array);
+        int answer = answer2(array);
         System.out.println(answer);
     }
 }
