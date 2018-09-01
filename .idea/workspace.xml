@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ctci/LinkedLists/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,16 +81,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="420">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#171#172#0" expanded="true" />
                 <element signature="e#204#205#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDups.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="661">
+              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+              <folding>
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,15 +144,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmallestSubstring.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SmallestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -157,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/ArrayPartition1.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/Node.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java" />
@@ -208,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/ListNode.java" />
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java" />
       </list>
     </option>
   </component>
@@ -276,6 +280,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -300,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.RemoveDups">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ctci.LinkedLists.LinkedList" />
       <module name="BloombergLeetCodeSection" />
@@ -311,18 +322,18 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.RotateMatrix" />
+    <configuration name="RemoveDups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ctci.LinkedLists.RemoveDups" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ctci.ArraysAndStrings.*" />
+          <option name="PATTERN" value="Ctci.LinkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.StringCompression" />
+    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.RotateMatrix" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -346,19 +357,19 @@
       <module name="BloombergLeetCodeSection" />
     </configuration>
     <list>
-      <item itemvalue="Application.StringCompression" />
       <item itemvalue="Application.palindromePermutation" />
       <item itemvalue="Application.oneAway" />
       <item itemvalue="Application.RotateMatrix" />
       <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Application.RemoveDups" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDups" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.RotateMatrix" />
         <item itemvalue="Application.oneAway" />
         <item itemvalue="Application.palindromePermutation" />
-        <item itemvalue="Application.StringCompression" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +398,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="46894000" />
+      <workItem from="1535414215700" duration="48549000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -634,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535829635604</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added linkedList basic implementation">
+      <created>1535837905837</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1535837905837</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106789000" />
+    <option name="totallyTimeSpent" value="108444000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,7 +708,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added problem description for ContainsDuplicate" />
     <MESSAGE value="added problem description for TwoSum" />
     <MESSAGE value="added problem description for firstUniqueCharacter" />
     <MESSAGE value="added problem ValidPallindrome" />
@@ -715,7 +732,8 @@
     <MESSAGE value="added String Problem pallindromePermutation" />
     <MESSAGE value="added String Problem oneAway" />
     <MESSAGE value="added Array Problem rotateMatrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Array Problem rotateMatrix" />
+    <MESSAGE value="Added linkedList basic implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added linkedList basic implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,13 +745,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/CountZeros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1138,13 +1149,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="420">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#204#205#0" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
           </folding>
         </state>
       </provider>
