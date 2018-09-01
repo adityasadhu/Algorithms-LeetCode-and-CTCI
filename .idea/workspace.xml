@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ctci/LinkedLists/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +61,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RotateMatrix.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RotateMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+            <state relative-caret-position="264">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,15 +111,6 @@
         </entry>
       </file>
       <file leaf-file-name="isUnique.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/isUnique.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="isUnique.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/isUnique.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
@@ -97,15 +118,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringCompression.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/StringCompression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -145,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/ProductOfArrayExceptSelf.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/strings/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/ArrayPartition1.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/Node.java" />
@@ -196,6 +206,8 @@
         <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/oneAway.java" />
         <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/stringRotation.java" />
         <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java" />
+        <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -255,6 +267,13 @@
               <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
               <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ctci" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedLists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -281,7 +300,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateMatrix">
+  <component name="RunManager" selected="Application.LinkedList">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ctci.LinkedLists.LinkedList" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ctci.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.RotateMatrix" />
       <module name="BloombergLeetCodeSection" />
@@ -294,16 +323,6 @@
     </configuration>
     <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.StringCompression" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ctci.ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="isUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.isUnique" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -327,19 +346,19 @@
       <module name="BloombergLeetCodeSection" />
     </configuration>
     <list>
-      <item itemvalue="Application.isUnique" />
       <item itemvalue="Application.StringCompression" />
       <item itemvalue="Application.palindromePermutation" />
       <item itemvalue="Application.oneAway" />
       <item itemvalue="Application.RotateMatrix" />
+      <item itemvalue="Application.LinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.RotateMatrix" />
         <item itemvalue="Application.oneAway" />
         <item itemvalue="Application.palindromePermutation" />
         <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.isUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +387,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="44366000" />
+      <workItem from="1535414215700" duration="46894000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -608,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535812136708</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added Array Problem rotateMatrix">
+      <created>1535829635604</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1535829635604</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104261000" />
+    <option name="totallyTimeSpent" value="106789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,7 +690,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array Problem - RemoveDuplicatesFromSortedArray" />
     <MESSAGE value="added problem description for ContainsDuplicate" />
     <MESSAGE value="added problem description for TwoSum" />
     <MESSAGE value="added problem description for firstUniqueCharacter" />
@@ -689,7 +714,8 @@
     <MESSAGE value="added String Problem StringCompression" />
     <MESSAGE value="added String Problem pallindromePermutation" />
     <MESSAGE value="added String Problem oneAway" />
-    <option name="LAST_COMMIT_MESSAGE" value="added String Problem oneAway" />
+    <MESSAGE value="added Array Problem rotateMatrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Array Problem rotateMatrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,20 +727,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/PlusOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1108,8 +1120,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+        <state relative-caret-position="264">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

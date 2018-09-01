@@ -21,7 +21,6 @@ public class RotateMatrix {
                 matrix[last - offset][first] = matrix[last][last - offset];
                 matrix[last][last - offset] = matrix[i][last];
                 matrix[i][last] = top;
-
             }
         }
 
