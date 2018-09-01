@@ -8,24 +8,19 @@ package leetcode.arrays;
 
 public class BestTimeToBuySellStock {
 
-//    static public int answer (int[] array){
-//        int length = array.length;
-//        int globalProfit = 0;
-//
-//        for (int i = 0; i < length -1; i++) {
-//            for (int j = i+1; j < length; j++) {
-//                int profit = array[j] - array[i];
-//                if(profit > globalProfit){
-//                    globalProfit = profit;
-//                }
-//            }
-//        }
-//
-//        return globalProfit;
-//    }
+    static public int answer (int[] array){
+        int length = array.length;
+        int globalProfit = 0;
+        for (int i = 0; i < length -1; i++) {
+            for (int j = i+1; j < length; j++) {
+                globalProfit = Math.max(globalProfit, array[j] - array[i]);
+            }
+        }
+        return globalProfit;
+    }
 
 
-    static public int answer(int[] array) {
+    static public int answer2(int[] array) {
         int maxProfit = 0;
         int minPrice = Integer.MAX_VALUE;
 
