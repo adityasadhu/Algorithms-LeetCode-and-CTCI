@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/pallindromePermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/oneAway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/palindromePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/palindromePermutation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pallindromePermutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pallindromePermutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/pallindromePermutation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -51,20 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseLinkedLisrt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java">
+      <file leaf-file-name="oneAway.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/oneAway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkPermutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checkPermutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="480">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -146,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/PivotOfIndex.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/CountZeros.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/ProductOfArrayExceptSelf.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/ReverseString.java" />
@@ -197,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/StringCompression.java" />
         <option value="$PROJECT_DIR$/src/palindromePermutation.java" />
         <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/pallindromePermutation.java" />
+        <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/oneAway.java" />
+        <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/stringRotation.java" />
       </list>
     </option>
   </component>
@@ -282,17 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.palindromePermutation">
-    <configuration name="BestTimeToBuySellStock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.BestTimeToBuySellStock2" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.oneAway">
     <configuration name="CheckPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.CheckPermutation" />
       <module name="BloombergLeetCodeSection" />
@@ -323,24 +303,34 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="oneAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.oneAway" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ctci.ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="palindromePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="palindromePermutation" />
       <module name="BloombergLeetCodeSection" />
     </configuration>
     <list>
-      <item itemvalue="Application.BestTimeToBuySellStock2" />
       <item itemvalue="Application.CheckPermutation" />
       <item itemvalue="Application.isUnique" />
       <item itemvalue="Application.StringCompression" />
       <item itemvalue="Application.palindromePermutation" />
+      <item itemvalue="Application.oneAway" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oneAway" />
         <item itemvalue="Application.palindromePermutation" />
         <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.isUnique" />
         <item itemvalue="Application.CheckPermutation" />
-        <item itemvalue="Application.BestTimeToBuySellStock2" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +359,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="40229000" />
+      <workItem from="1535414215700" duration="42530000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -595,11 +585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535783529109</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added String Problem pallindromePermutation">
+      <created>1535808689946</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1535808689946</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100124000" />
+    <option name="totallyTimeSpent" value="102425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -651,7 +648,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="problems added" />
     <MESSAGE value="new problems added" />
     <MESSAGE value="Array Problem - RemoveDuplicatesFromSortedArray" />
     <MESSAGE value="added problem description for ContainsDuplicate" />
@@ -676,7 +672,8 @@
     <MESSAGE value="added String Problem CheckPermutation" />
     <MESSAGE value="added String Problem isUnique" />
     <MESSAGE value="added String Problem StringCompression" />
-    <option name="LAST_COMMIT_MESSAGE" value="added String Problem StringCompression" />
+    <MESSAGE value="added String Problem pallindromePermutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added String Problem pallindromePermutation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,20 +685,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/MergeTwoSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/RomanToInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/strings/LongestPalindromicString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1097,6 +1080,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/stringRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/oneAway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
         </state>
       </provider>
     </entry>
