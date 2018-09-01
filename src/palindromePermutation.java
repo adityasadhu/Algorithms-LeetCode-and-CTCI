@@ -20,7 +20,7 @@ public class palindromePermutation {
     }
 
 public static void main (String args[]){
-        boolean result = check("tactcoa");
+        boolean result = check("aabbcddee");
         System.out.println(result);
 }
 
