@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/NumberOfIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedList2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,13 +78,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseLinkedList2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseLinkedList2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedList2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            <state relative-caret-position="436">
+              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
               <folding>
                 <element signature="e#0#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberOfIslands.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/graphs/NumberOfIslands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#579#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,18 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/SortList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#304#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -145,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/Twosum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/FirstUniqueCharacter.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/ValidAnagram.java" />
@@ -196,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/Rotatelist.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedList2.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/graphs/NumberOfIslands.java" />
       </list>
     </option>
   </component>
@@ -262,6 +264,13 @@
               <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="graphs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -288,13 +297,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedList2">
-    <configuration name="OddEvenLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.OddEvenLinkedList" />
+  <component name="RunManager" selected="Application.NumberOfIslands">
+    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.NumberOfIslands" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.linkedlists.*" />
+          <option name="PATTERN" value="leetcode.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,18 +350,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.PallindromeLinkedList" />
-      <item itemvalue="Application.OddEvenLinkedList" />
       <item itemvalue="Application.ReorderList" />
       <item itemvalue="Application.Rotatelist" />
       <item itemvalue="Application.ReverseLinkedList2" />
+      <item itemvalue="Application.NumberOfIslands" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.ReverseLinkedList2" />
         <item itemvalue="Application.Rotatelist" />
         <item itemvalue="Application.ReorderList" />
         <item itemvalue="Application.PallindromeLinkedList" />
-        <item itemvalue="Application.OddEvenLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -381,14 +390,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="66379000" />
-    </task>
-    <task id="LOCAL-00003" summary="Array Problems">
-      <created>1534374891480</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1534374891481</updated>
+      <workItem from="1535414215700" duration="70003000" />
     </task>
     <task id="LOCAL-00004" summary="Array Problems">
       <created>1534375141655</created>
@@ -726,11 +728,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535916736114</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="added LinkedListProblem reverseLinkedList2">
+      <created>1535918692260</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1535918692260</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126274000" />
+    <option name="totallyTimeSpent" value="129898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -754,12 +763,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.2830424" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.2830424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.2830424" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32917705" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
@@ -782,7 +791,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added Array Problem MissingNumber" />
     <MESSAGE value="added Array Problem MergeTwoSortedArrays" />
     <MESSAGE value="modified brute force code for BestTimeToBuySellStock" />
     <MESSAGE value="modified optimized code for BestTimeToBuySellStock and added explanation in comments" />
@@ -807,11 +815,12 @@
     <MESSAGE value="updated LinkedListProblem OddEvenLinkedList" />
     <MESSAGE value="added LinkedListProblem reorderList" />
     <MESSAGE value="added LinkedListProblem rotateList" />
-    <option name="LAST_COMMIT_MESSAGE" value="added LinkedListProblem rotateList" />
+    <MESSAGE value="added LinkedListProblem reverseLinkedList2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LinkedListProblem reverseLinkedList2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -819,17 +828,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/FindAllNumbersDisappearedInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#0#527#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -1232,10 +1230,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedList2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="436">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding>
             <element signature="e#0#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/graphs/NumberOfIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#579#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

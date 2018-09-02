@@ -60,9 +60,7 @@ public class ReverseLinkedList2 {
             then.next = pre.next;
             pre.next = then;
             then = start.next;
-
         }
-
         return dummy.next;
 
     }
