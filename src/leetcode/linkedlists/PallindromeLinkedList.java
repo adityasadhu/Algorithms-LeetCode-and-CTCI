@@ -34,9 +34,9 @@ public class PallindromeLinkedList extends LinkedList {
         pallindromeLinkedList.append(10);
         pallindromeLinkedList.append(20);
 //        pallindromeLinkedList.append(30);
+        pallindromeLinkedList.append(30);
         pallindromeLinkedList.append(20);
         pallindromeLinkedList.append(10);
-        pallindromeLinkedList.append(50);
         boolean result = pallindromeLinkedList.isPallindrome(head);
         System.out.println(result);
 
