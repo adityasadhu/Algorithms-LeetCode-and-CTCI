@@ -71,10 +71,6 @@ public class MultiplyStrings {
             }
 
         }
-        for (int i = 0; i < pos.length; i++) {
-            System.out.println(pos[i]);
-
-        }
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < pos.length; i++) {
             sb.append(pos[i]);
