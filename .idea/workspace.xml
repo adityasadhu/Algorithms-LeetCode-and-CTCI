@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,15 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="palindromePermutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/palindromePermutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pallindromePermutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/pallindromePermutation.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,16 +102,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReturnKthToLast.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReturnKthToLast.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="44" lean-forward="true" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
               <folding>
                 <element signature="e#154#155#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
                 <element signature="e#213#214#0" expanded="true" />
                 <element signature="e#240#241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/Node.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/DeleteNodeInALinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" />
@@ -218,6 +219,8 @@
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java" />
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java" />
+        <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/DeleteMiddleNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java" />
       </list>
     </option>
   </component>
@@ -277,13 +280,6 @@
               <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
               <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ctci" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedLists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,7 +287,7 @@
               <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,7 +313,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReturnKthToLast">
+  <component name="RunManager" selected="Application.GroupAnagrams">
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.strings.GroupAnagrams" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ctci.LinkedLists.LinkedList" />
       <module name="BloombergLeetCodeSection" />
@@ -358,30 +364,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="oneAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.oneAway" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ctci.ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <list>
-      <item itemvalue="Application.oneAway" />
       <item itemvalue="Application.RotateMatrix" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.RemoveDups" />
       <item itemvalue="Application.ReturnKthToLast" />
+      <item itemvalue="Application.GroupAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.ReturnKthToLast" />
         <item itemvalue="Application.RemoveDups" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.RotateMatrix" />
-        <item itemvalue="Application.oneAway" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +406,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="48899000" />
+      <workItem from="1535414215700" duration="50948000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -671,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535840372692</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Added linkedList problem ReturnKthToLast">
+      <created>1535840721778</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1535840721778</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108794000" />
+    <option name="totallyTimeSpent" value="110843000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,7 +730,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added problem description for firstUniqueCharacter" />
     <MESSAGE value="added problem ValidPallindrome" />
     <MESSAGE value="added problem LongestCommonPrefix" />
     <MESSAGE value="added problem ImplementStrstr" />
@@ -752,7 +754,8 @@
     <MESSAGE value="added Array Problem rotateMatrix" />
     <MESSAGE value="Added linkedList basic implementation" />
     <MESSAGE value="Added linkedList problem RemoveDups" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added linkedList problem RemoveDups" />
+    <MESSAGE value="Added linkedList problem ReturnKthToLast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added linkedList problem ReturnKthToLast" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -764,23 +767,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/FirstUniqueCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#1823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ValidAnagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ValidPallindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -1185,15 +1171,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/DeleteMiddleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="44" lean-forward="true" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
           <folding>
             <element signature="e#154#155#0" expanded="true" />
             <element signature="e#180#181#0" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
