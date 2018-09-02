@@ -53,11 +53,43 @@ public class MultiplyStrings {
         return stringBuilder.toString();
     }
 
+
+    static public String answer2(String s1, String s2) {
+
+        int length1 = s1.length();
+        int length2 = s2.length();
+        int[] pos = new int[length1 + length1];
+
+        for (int i = length1 - 1; i >= 0; i--) {
+            for (int j = length2 - 1; j >= 0; j--) {
+                int p1 = i + j;
+                int p2 = i + j + 1;
+                int mul = (s1.charAt(i) - '0') * (s2.charAt(i) - '0');
+                int sum = mul + pos[p2];
+                pos[p1] = +sum / 10;
+                pos[p2] = sum % 10;
+            }
+
+        }
+        for (int i = 0; i < pos.length; i++) {
+            System.out.println(pos[i]);
+
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < pos.length; i++) {
+            sb.append(pos[i]);
+        }
+        if (sb.charAt(0) == '0') {
+            sb.deleteCharAt(0);
+        }
+        return sb.toString();
+    }
+
     public static void main(String[] args) {
 
-        String s1 = "99";
-        String s2 = "99";
-        String result = multiply(s1, s2);
+        String s1 = "11";
+        String s2 = "11";
+        String result = answer2(s1, s2);
         System.out.println(result);
     }
 }

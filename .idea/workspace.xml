@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/strings/MultiplyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/strings/MultiplyStrings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,24 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pallindromePermutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/pallindromePermutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oneAway.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/oneAway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RotateMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +99,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="743">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="e#0#1363#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZigZagConversation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ZigZagConversation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/LongestSubstringWithoutRepeatingCharacters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,14 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckPermutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ctci/ArraysAndStrings/CheckPermutation.java">
+      <file leaf-file-name="MultiplyStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/MultiplyStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -176,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/MergeTwoSortedLists.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/strings/MultiplyStrings.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate.java" />
@@ -221,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/ReturnKthToLast.java" />
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/DeleteMiddleNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/strings/MultiplyStrings.java" />
       </list>
     </option>
   </component>
@@ -313,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupAnagrams">
+  <component name="RunManager" selected="Application.MultiplyStrings">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.strings.GroupAnagrams" />
       <module name="BloombergLeetCodeSection" />
@@ -330,6 +331,16 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Ctci.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MultiplyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.strings.MultiplyStrings" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,30 +365,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ctci.ArraysAndStrings.RotateMatrix" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ctci.ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <list>
-      <item itemvalue="Application.RotateMatrix" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.RemoveDups" />
       <item itemvalue="Application.ReturnKthToLast" />
       <item itemvalue="Application.GroupAnagrams" />
+      <item itemvalue="Application.MultiplyStrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiplyStrings" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.ReturnKthToLast" />
         <item itemvalue="Application.RemoveDups" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.RotateMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +407,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="50948000" />
+      <workItem from="1535414215700" duration="53748000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -674,11 +675,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535840721778</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Added String problem GroupAnagrams">
+      <created>1535848717467</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1535848717467</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Added String problem GroupAnagrams optimized solution">
+      <created>1535853282892</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1535853282893</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110843000" />
+    <option name="totallyTimeSpent" value="113643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,12 +717,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.2830424" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.2830424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.2830424" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970452" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
@@ -730,8 +745,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added problem ValidPallindrome" />
-    <MESSAGE value="added problem LongestCommonPrefix" />
     <MESSAGE value="added problem ImplementStrstr" />
     <MESSAGE value="added problem ValidParantheses" />
     <MESSAGE value="added String problems" />
@@ -755,7 +768,9 @@
     <MESSAGE value="Added linkedList basic implementation" />
     <MESSAGE value="Added linkedList problem RemoveDups" />
     <MESSAGE value="Added linkedList problem ReturnKthToLast" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added linkedList problem ReturnKthToLast" />
+    <MESSAGE value="Added String problem GroupAnagrams" />
+    <MESSAGE value="Added String problem GroupAnagrams optimized solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added String problem GroupAnagrams optimized solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -835,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/MultiplyStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/strings/LetterCombinationOfAPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -880,13 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ZigZagConversation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -942,16 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,11 +1190,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="743">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#0#1363#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ZigZagConversation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/LongestSubstringWithoutRepeatingCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/MultiplyStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
         </state>
       </provider>
     </entry>
