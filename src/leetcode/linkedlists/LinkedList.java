@@ -1,11 +1,11 @@
 package leetcode.linkedlists;
 
 public class LinkedList {
-    public static Node getHead() {
-        return head;
+    public Node getHead() {
+        return this.head;
     }
 
-    public static void setHead(Node head) {
+    public void setHead(Node head) {
         LinkedList.head = head;
     }
 

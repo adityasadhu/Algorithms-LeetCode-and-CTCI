@@ -67,6 +67,10 @@ public class LinkedList {
         ListNode node = new ListNode(10);
         linkedList.insertAtEnd(node);
         ListNode head = linkedList.getHead();
-        linkedList.show(head);
+        //linkedList.show(head);
+
+        LinkedList l2 = new LinkedList();
+        l2.append(1);
+        l2.show(l2.getHead());
     }
 }
