@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java" afterDir="false" />
+    <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="added LinkedListProblem reorderList">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/Rotatelist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReorderList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReorderList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="12">
+              <caret line="30" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rotatelist.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/Rotatelist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="81" column="73" lean-forward="true" selection-start-line="81" selection-start-column="73" selection-end-line="81" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -87,15 +96,6 @@
                 <element signature="e#108#109#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedlistCycle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -147,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/SingleNumber.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/Twosum.java" />
@@ -198,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/Rotatelist.java" />
       </list>
     </option>
   </component>
@@ -290,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReorderList">
+  <component name="RunManager" selected="Application.Rotatelist">
     <configuration name="LinkedlistCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.LinkedlistCycle" />
       <module name="BloombergLeetCodeSection" />
@@ -331,8 +331,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReverseLinkedLisrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.ReverseLinkedLisrt" />
+    <configuration name="Rotatelist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.Rotatelist" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -343,18 +343,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.PallindromeLinkedList" />
-      <item itemvalue="Application.ReverseLinkedLisrt" />
       <item itemvalue="Application.LinkedlistCycle" />
       <item itemvalue="Application.OddEvenLinkedList" />
       <item itemvalue="Application.ReorderList" />
+      <item itemvalue="Application.Rotatelist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rotatelist" />
         <item itemvalue="Application.ReorderList" />
         <item itemvalue="Application.PallindromeLinkedList" />
         <item itemvalue="Application.OddEvenLinkedList" />
         <item itemvalue="Application.LinkedlistCycle" />
-        <item itemvalue="Application.ReverseLinkedLisrt" />
       </list>
     </recent_temporary>
   </component>
@@ -383,14 +383,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="63784000" />
-    </task>
-    <task id="LOCAL-00001" summary="Delete iml and out.">
-      <created>1533869455501</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1533869455501</updated>
+      <workItem from="1535414215700" duration="65698000" />
     </task>
     <task id="LOCAL-00002" summary="Add gitignore">
       <created>1533869522115</created>
@@ -721,11 +714,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535909191909</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="added LinkedListProblem reorderList">
+      <created>1535911696169</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1535911696169</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added LinkedListProblem reorderList">
+      <created>1535911721106</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1535911721108</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123679000" />
+    <option name="totallyTimeSpent" value="125593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,7 +784,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added better solution for FindAllNumbersDisappearedInArray" />
     <MESSAGE value="added Array Problem ContainsDuplicate2" />
     <MESSAGE value="added Array Problem MissingNumber" />
     <MESSAGE value="added Array Problem MergeTwoSortedArrays" />
@@ -802,11 +808,12 @@
     <MESSAGE value="added LinkedListProblem PallindromeLinkedList" />
     <MESSAGE value="added LinkedListProblem OddEvenLinkedList" />
     <MESSAGE value="updated LinkedListProblem OddEvenLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated LinkedListProblem OddEvenLinkedList" />
+    <MESSAGE value="added LinkedListProblem reorderList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LinkedListProblem reorderList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -814,13 +821,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ProductOfArrayExceptSelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/RemoveElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1227,8 +1227,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="12">
+          <caret line="30" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/Rotatelist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="81" column="73" lean-forward="true" selection-start-line="81" selection-start-column="73" selection-end-line="81" selection-end-column="73" />
         </state>
       </provider>
     </entry>

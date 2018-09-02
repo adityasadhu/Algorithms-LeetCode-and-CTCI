@@ -52,9 +52,9 @@ public class ReorderList {
 //        show(secondHead);
 
 
+        Node nextHead1 = firstHead.next;
+        Node nextHead2 = secondHead.next;
         while (firstHead != null) {
-            Node nextHead1 = firstHead.next;
-            Node nextHead2 = secondHead.next;
             firstHead.next = secondHead;
             if (nextHead1 == null) {
                 break;
@@ -62,7 +62,8 @@ public class ReorderList {
             secondHead.next = nextHead1;
             firstHead = nextHead1;
             secondHead = nextHead2;
-
+            nextHead1 = firstHead.next;
+            nextHead2 = secondHead.next;
         }
 
         return head;
@@ -75,15 +76,12 @@ public class ReorderList {
         Node prev = null;
         Node temp = null;
         Node current = head;
-
         while (current != null) {
             temp = current.next;
             current.next = prev;
             prev = current;
             current = temp;
-
         }
-
         return prev;
 
     }
@@ -95,7 +93,7 @@ public class ReorderList {
         reorderList.append(20);
         reorderList.append(30);
         reorderList.append(40);
-        reorderList.append(50);
+        //reorderList.append(50);
         Node answer = reorderList.reOrderList(reorderList.getHead());
         reorderList.show(answer);
 
