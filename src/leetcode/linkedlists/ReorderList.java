@@ -56,7 +56,7 @@ public class ReorderList {
             Node nextHead1 = firstHead.next;
             Node nextHead2 = secondHead.next;
             firstHead.next = secondHead;
-            if(nextHead1 == null){
+            if (nextHead1 == null) {
                 break;
             }
             secondHead.next = nextHead1;
