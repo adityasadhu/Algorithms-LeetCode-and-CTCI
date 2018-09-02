@@ -16,6 +16,7 @@ public class PallindromeLinkedList extends LinkedList {
             fast = fast.next.next;
         }
 
+        //handling odd case moving slow pointer
         if (fast != null) {
             slow = slow.next;
         }
