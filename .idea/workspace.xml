@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,14 +34,14 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="510">
               <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/Node.java">
+      <file leaf-file-name="RemoveNthNodeFromEndOfList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -53,7 +52,7 @@
       <file leaf-file-name="PallindromeLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="615">
               <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
@@ -62,8 +61,8 @@
       <file leaf-file-name="OddEvenLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="436">
+              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -71,8 +70,21 @@
       <file leaf-file-name="ReverseLinkedLisrt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="300">
               <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/StackLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+              <folding>
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +92,7 @@
       <file leaf-file-name="LinkedlistCycle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="352">
               <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
             </state>
           </provider>
@@ -101,8 +113,8 @@
       <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-877">
-              <caret column="55" selection-start-column="55" selection-end-column="55" />
+            <state relative-caret-position="300">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -112,15 +124,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -142,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/ContainsDuplicate.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/SingleNumber.java" />
@@ -193,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/SortList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java" />
       </list>
     </option>
   </component>
@@ -285,17 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PallindromeLinkedList">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.AddTwoNumbers" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.linkedlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.OddEvenLinkedList">
     <configuration name="LinkedlistCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.LinkedlistCycle" />
       <module name="BloombergLeetCodeSection" />
@@ -308,6 +301,16 @@
     </configuration>
     <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.MergeTwoSortedLists" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="OddEvenLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlists.OddEvenLinkedList" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -337,19 +340,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.AddTwoNumbers" />
       <item itemvalue="Application.MergeTwoSortedLists" />
       <item itemvalue="Application.PallindromeLinkedList" />
       <item itemvalue="Application.ReverseLinkedLisrt" />
       <item itemvalue="Application.LinkedlistCycle" />
+      <item itemvalue="Application.OddEvenLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddEvenLinkedList" />
         <item itemvalue="Application.PallindromeLinkedList" />
         <item itemvalue="Application.LinkedlistCycle" />
         <item itemvalue="Application.ReverseLinkedLisrt" />
         <item itemvalue="Application.MergeTwoSortedLists" />
-        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +381,7 @@
       <workItem from="1534607460163" duration="10378000" />
       <workItem from="1535034024664" duration="2949000" />
       <workItem from="1535120743011" duration="626000" />
-      <workItem from="1535414215700" duration="60867000" />
+      <workItem from="1535414215700" duration="61456000" />
     </task>
     <task id="LOCAL-00001" summary="Delete iml and out.">
       <created>1533869455501</created>
@@ -695,11 +698,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535907753676</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="added LinkedListProblem PallindromeLinkedList">
+      <created>1535908382587</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1535908382587</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120762000" />
+    <option name="totallyTimeSpent" value="121351000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,12 +733,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.2830424" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.2830424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.2830424" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32917705" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.29756796" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
@@ -751,7 +761,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ArrayProblem MaximumSubArray" />
     <MESSAGE value="ArrayProblem TwoSumSorted" />
     <MESSAGE value="ArrayProblem FindAllNumbersDisappearedInArray, TrappingRainWater" />
     <MESSAGE value="added better solution for FindAllNumbersDisappearedInArray" />
@@ -776,7 +785,8 @@
     <MESSAGE value="added stackUsingLinkedList" />
     <MESSAGE value="added LinkedListProblem AddTwoNumbers" />
     <MESSAGE value="added LinkedListProblem removeLinkedListCycle in LinkedListCycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="added LinkedListProblem removeLinkedListCycle in LinkedListCycle" />
+    <MESSAGE value="added LinkedListProblem PallindromeLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LinkedListProblem PallindromeLinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1100,24 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/StackLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ctci/LinkedLists/RemoveDups.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
@@ -1152,29 +1144,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="510">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/AddTwoNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-877">
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        <state relative-caret-position="352">
+          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/MergeTwoSortedLists.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/StackLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="375">
+          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,24 +1177,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/ReverseLinkedLisrt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        <state relative-caret-position="300">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/RemoveNthNodeFromEndOfList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="615">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="436">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
