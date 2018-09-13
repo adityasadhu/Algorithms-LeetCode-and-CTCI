@@ -20,8 +20,8 @@ public class ProductOfArrayExceptSelf {
 
     public static void main(String[] args) {
 
-        int[] array = {1,2,3,4};
-        int[]answer = answer(array);
+        int[] array = {1, 2, 3, 4};
+        int[] answer = answer(array);
 
         for (int i = 0; i < answer.length; i++) {
             System.out.println(answer[i]);

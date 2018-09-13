@@ -15,6 +15,9 @@
 
 package leetcode.arrays;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ContainsDuplicate2 {
 
 
@@ -30,10 +33,36 @@ public class ContainsDuplicate2 {
         return false;
     }
 
+
+    static public boolean answerHashMap(int[] array, int k) {
+
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        for (int i = 0; i < array.length; i++) {
+            if (hashMap.containsKey(array[i]) && hashMap.get(array[i]) + i >= k) {
+                hashMap.put(array[i], hashMap.get(array[i]) + 1);
+            } else {
+                hashMap.put(array[i], 1);
+            }
+        }
+        for(Map.Entry<Integer, Integer> ite : hashMap.entrySet()){
+
+            System.out.println(ite.getKey()+ " " + ite.getValue());
+        }
+
+        for(Map.Entry<Integer, Integer> ite : hashMap.entrySet()){
+
+            if(ite.getValue() > 1){
+                return false;
+            }
+        }
+        return true;
+    }
+
+
     public static void main(String[] args) {
 
-        int[] array = {1, 0, 1, 1};
-        boolean answer = answer(array, 1);
+        int[] array = {1,2,3,1};
+        boolean answer = answerHashMap(array, 3);
         System.out.println(answer);
     }
 }

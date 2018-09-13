@@ -51,7 +51,7 @@ public class BestTimeToBuySellStock2 {
     }
 
 
-    static public int peakValleyApproachOptimized(int[] heights){
+    static public int peakValleyApproachOptimized(int[] heights) {
         int maxprofit = 0;
         for (int i = 1; i < heights.length; i++) {
             if (heights[i] > heights[i - 1])
@@ -63,7 +63,7 @@ public class BestTimeToBuySellStock2 {
 
     public static void main(String[] args) {
 
-        int[] heights = {1,2,3,4,5};
+        int[] heights = {1, 2, 3, 2, 5};
         int answer = peakValleyApproachOptimized(heights);
         System.out.println(answer);
 

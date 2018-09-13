@@ -31,7 +31,7 @@ public class ThreeSum {
                         answer.add(innerAnswer);
                     }
                     j++;
-                    while (j < k && array[j] == array[j - 1]) ++j;
+                    if (j < k && array[j] == array[j - 1]) ++j;
 
                 } else if (sum < 0) {
                     j++;

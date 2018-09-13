@@ -40,9 +40,10 @@ public class RotateArray {
         return array;
     }
 
+
     public static void main(String[] args) {
 
-        int[] array = {-1,-100,3,99};
+        int[] array = {-1, -100, 3, 99};
 
         int[] answer = answer(array, 2);
 

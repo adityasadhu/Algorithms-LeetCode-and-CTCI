@@ -9,9 +9,14 @@ public class CountZeros {
         int count = 0;
         int start = 0;
         for (int i = 0; i < length; i++) {
-            if (array[i] == 0) {
-                count++;
-            } else {
+//            if (array[i] == 0) {
+//                count++;
+//            } else {
+//                array[start] = array[i];
+//                start++;
+//            }
+
+            if (array[i] != 0) {
                 array[start] = array[i];
                 start++;
             }
