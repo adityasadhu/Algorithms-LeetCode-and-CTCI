@@ -68,8 +68,25 @@ public class LongestCommonSubstring {
         }
 
         result.reverse();
-        System.out.println(result);
+        //System.out.println(result);
 
+        return maxLength;
+    }
+
+
+    static public int answerArray(int[] array1, int array2[]) {
+
+        int[][] dp = new int[array1.length + 1][array2.length + 1];
+        int maxLength = Integer.MIN_VALUE;
+
+        for (int i = 1; i <= array1.length; i++) {
+            for (int j = 1; j <= array1.length; j++) {
+                if (array1[i - 1] == array2[j - 1]) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                    maxLength = Math.max(maxLength, dp[i][j]);
+                }
+            }
+        }
         return maxLength;
     }
 
@@ -80,8 +97,13 @@ public class LongestCommonSubstring {
         String s1 = "dude";
         String s2 = "wassupdude";
 
-        int answer = answer(s1, s2);
-        System.out.println(answer);
+        int[] array1 = {1, 2, 3, 4, 5};
+        int[] array2 = {3, 4, 5, 1, 2};
+
+        int answer1 = answerArray(array1, array2);
+
+        //int answer = answer(s1, s2);
+        System.out.println(answer1);
 
     }
 
