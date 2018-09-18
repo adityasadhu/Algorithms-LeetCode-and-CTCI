@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/MinimumInRotatedSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arrays/MaximumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arrays/MaximumSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arrays/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arrays/RemoveElement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaximumSubArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaximumSubArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/MaximumSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="337">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumInRotatedSortedArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/MinimumInRotatedSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#0#554#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,18 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ContainerWithMostWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#1945#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/TwoSumSorted.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/PascalTriangle.java" />
@@ -197,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/arrays/BestTimeToBuySellStock2.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/MaximumSubArray.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/arrays/MinimumInRotatedSortedArray.java" />
       </list>
     </option>
   </component>
@@ -290,17 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveElement">
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.strings.GroupAnagrams" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumInRotatedSortedArray">
     <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.strings.LongestCommonSubstring" />
       <module name="BloombergLeetCodeSection" />
@@ -331,6 +320,16 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="MinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.MinimumInRotatedSortedArray" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.RemoveElement" />
       <module name="BloombergLeetCodeSection" />
@@ -342,19 +341,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.LongestCommonSubstring" />
       <item itemvalue="Application.MedianOf2SortedArrays" />
       <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.RemoveElement" />
+      <item itemvalue="Application.MinimumInRotatedSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumInRotatedSortedArray" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.MedianOf2SortedArrays" />
         <item itemvalue="Application.LongestCommonSubstring" />
-        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -393,14 +392,7 @@
       <workItem from="1536353361498" duration="405000" />
       <workItem from="1536796661648" duration="8091000" />
       <workItem from="1536979080663" duration="9000" />
-      <workItem from="1537025604694" duration="6587000" />
-    </task>
-    <task id="LOCAL-00012" summary="added problem description for TwoSum">
-      <created>1535573485715</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1535573485715</updated>
+      <workItem from="1537025604694" duration="7338000" />
     </task>
     <task id="LOCAL-00013" summary="added problem description for firstUniqueCharacter">
       <created>1535573594218</created>
@@ -738,11 +730,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537223539921</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="added some comments and refactored code">
+      <created>1537233025262</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1537233025262</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161527000" />
+    <option name="totallyTimeSpent" value="162278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,7 +793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added String Problem oneAway" />
     <MESSAGE value="added Array Problem rotateMatrix" />
     <MESSAGE value="Added linkedList basic implementation" />
     <MESSAGE value="Added linkedList problem RemoveDups" />
@@ -819,7 +817,8 @@
     <MESSAGE value="added StringProblem MinimumWindowSubstring and FindAllAnamgramsInAString" />
     <MESSAGE value="modified StringProblem LCS to take arrays as input" />
     <MESSAGE value="Added arrayProblem MedianOf2Sortedarrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added arrayProblem MedianOf2Sortedarrays" />
+    <MESSAGE value="added some comments and refactored code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some comments and refactored code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,13 +837,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/SortList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/StackLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1202,8 +1194,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/MaximumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="337">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/MinimumInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
