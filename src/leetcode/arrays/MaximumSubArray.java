@@ -16,30 +16,31 @@ public class MaximumSubArray {
 
 
     //brute force ie calculating sum of all subarrays and returning the maximum sum
-    static public int calculateSum(int[] array, int start, int end){
+    static public int calculateSum(int[] array, int start, int end) {
         int sum = 0;
         for (int i = start; i <= end; i++) {
             sum += array[i];
         }
         return sum;
     }
-    static public int answer(int[] array){
+
+    static public int answer(int[] array) {
 
         int maxSum = Integer.MIN_VALUE;
         for (int i = 0; i < array.length; i++) {
-            for (int j = i+1; j < array.length; j++) {
+            for (int j = i + 1; j < array.length; j++) {
                 maxSum = Math.max(calculateSum(array, i, j), maxSum);
             }
         }
         return maxSum;
     }
 
-
-    static public int optimizedAnswer(int[] A){
-        int maxSoFar=A[0], maxEndingHere=A[0];
-        for (int i=1;i<A.length;++i){
-            maxEndingHere= Math.max(maxEndingHere+A[i],A[i]);
-            maxSoFar=Math.max(maxSoFar, maxEndingHere);
+    // kadanes algorithm
+    static public int optimizedAnswer(int[] A) {
+        int maxSoFar = A[0], maxEndingHere = A[0];
+        for (int i = 1; i < A.length; ++i) {
+            maxEndingHere = Math.max(maxEndingHere + A[i], A[i]);
+            maxSoFar = Math.max(maxSoFar, maxEndingHere);
         }
         return maxSoFar;
     }
@@ -47,7 +48,7 @@ public class MaximumSubArray {
     public static void main(String[] args) {
 
 
-        int[] array = {-2,1,-3,4,-1,2,1,-5,4};
+        int[] array = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int answer = optimizedAnswer(array);
         System.out.println(answer);
 

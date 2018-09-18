@@ -14,7 +14,7 @@ public class RemoveElement {
         return array.length - count;
     }
 
-    static public int answer2(int[] array, int value){
+    static public int answer2(int[] array, int value) {
         int i = 0;
         for (int j = 0; j < array.length; j++) {
             if (array[j] != value) {
