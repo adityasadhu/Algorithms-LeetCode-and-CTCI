@@ -17,30 +17,14 @@ public class FindAllAnagramsInAString {
         int counter = map.size();
 
         int begin = 0, end = 0;
-        int len = Integer.MAX_VALUE;
-
-
-//        for(Map.Entry<Character, Integer> iterator : map.entrySet()){
-//            System.out.println(iterator.getKey()+" " + iterator.getValue());
-//        }
-//        System.out.println();
 
         while (end < s.length()) {
             char c = s.charAt(end);
-            System.out.println(c);
             if (map.containsKey(c)) {
                 map.put(c, map.get(c) - 1);
                 if (map.get(c) == 0) counter--;
             }
             end++;
-            System.out.println("outer while map");
-            for (Map.Entry<Character, Integer> iterator : map.entrySet()) {
-
-                System.out.println(iterator.getKey() + " " + iterator.getValue());
-            }
-            System.out.println("counter is" + counter);
-            System.out.println();
-
 
             while (counter == 0) {
                 char tempc = s.charAt(begin);
@@ -51,17 +35,9 @@ public class FindAllAnagramsInAString {
                     }
                 }
                 if (end - begin == t.length()) {
-                    System.out.println("result found" + begin);
                     result.add(begin);
                 }
                 begin++;
-                System.out.println("inner while map");
-                for (Map.Entry<Character, Integer> iterator : map.entrySet()) {
-
-                    System.out.println(iterator.getKey() + " " + iterator.getValue());
-                }
-                System.out.println("counter is" + counter);
-                System.out.println();
             }
 
         }
