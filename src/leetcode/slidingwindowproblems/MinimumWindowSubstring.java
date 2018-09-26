@@ -57,7 +57,7 @@ public class MinimumWindowSubstring {
 
             // when counter is 0 we have reached the answer state and now we need to check if we can remove characters
             // beginning.
-            // character at the beginning may or may not be in the map. if it is not there we can simple move but
+            // character at the beginning may or may not be in the map. if it is not there we can simply remove but
             // if it is there then we add it to the map and increment the counter.
             while (counter == 0) {
 
