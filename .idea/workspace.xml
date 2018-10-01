@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/LargestNumberAtLeastTwiceofOthers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/MaxConcecutiveOnes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,15 +40,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/RomanToInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -96,11 +87,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayPartition1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayPartition1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ArrayPartition1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="360">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxConcecutiveOnes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/MaxConcecutiveOnes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#517#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/oneAway.java" />
         <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/stringRotation.java" />
         <option value="$PROJECT_DIR$/src/Ctci/ArraysAndStrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/Ctci/LinkedLists/ListNode.java" />
@@ -200,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/strings/RansomNote.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/RepeatedSubStringPattern.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/LargestNumberAtLeastTwiceofOthers.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/arrays/MaxConcecutiveOnes.java" />
       </list>
     </option>
   </component>
@@ -279,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LargestNumberAtLeastTwiceofOthers">
+  <component name="RunManager" selected="Application.MaxConcecutiveOnes">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.strings.AddBinary" />
       <module name="BloombergLeetCodeSection" />
@@ -292,6 +295,16 @@
     </configuration>
     <configuration name="LargestNumberAtLeastTwiceofOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.LargestNumberAtLeastTwiceofOthers" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MaxConcecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.MaxConcecutiveOnes" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
@@ -320,30 +333,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="topKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.topKFrequentElements" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <list>
-      <item itemvalue="Application.topKFrequentElements" />
       <item itemvalue="Application.MostCommonWord" />
       <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.RansomNote" />
       <item itemvalue="Application.LargestNumberAtLeastTwiceofOthers" />
+      <item itemvalue="Application.MaxConcecutiveOnes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxConcecutiveOnes" />
         <item itemvalue="Application.LargestNumberAtLeastTwiceofOthers" />
         <item itemvalue="Application.RansomNote" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.MostCommonWord" />
-        <item itemvalue="Application.topKFrequentElements" />
       </list>
     </recent_temporary>
   </component>
@@ -384,14 +387,7 @@
       <workItem from="1536979080663" duration="9000" />
       <workItem from="1537025604694" duration="12963000" />
       <workItem from="1537885403920" duration="5503000" />
-      <workItem from="1538057697768" duration="8428000" />
-    </task>
-    <task id="LOCAL-00026" summary="added Array Problem MergeTwoSortedArrays">
-      <created>1535762395709</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1535762395709</updated>
+      <workItem from="1538057697768" duration="8862000" />
     </task>
     <task id="LOCAL-00027" summary="modified brute force code for BestTimeToBuySellStock">
       <created>1535772188913</created>
@@ -729,11 +725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538333431558</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="added ArrayProblem LargestNumberAtLeastTwiceofOthers">
+      <created>1538363597588</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1538363597588</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181834000" />
+    <option name="totallyTimeSpent" value="182268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,7 +788,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated LinkedListProblem OddEvenLinkedList" />
     <MESSAGE value="added LinkedListProblem reorderList" />
     <MESSAGE value="added LinkedListProblem rotateList" />
     <MESSAGE value="added LinkedListProblem reverseLinkedList2" />
@@ -810,7 +812,8 @@
     <MESSAGE value="added StringProblem MostCommonWord" />
     <MESSAGE value="added StringProblem AddBinary" />
     <MESSAGE value="added StringProblem RansomNote" />
-    <option name="LAST_COMMIT_MESSAGE" value="added StringProblem RansomNote" />
+    <MESSAGE value="added ArrayProblem LargestNumberAtLeastTwiceofOthers" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ArrayProblem LargestNumberAtLeastTwiceofOthers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -829,13 +832,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/implementStrstr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/strings/ZigZagConversation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1212,8 +1208,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/ArrayPartition1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="360">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/MaxConcecutiveOnes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
