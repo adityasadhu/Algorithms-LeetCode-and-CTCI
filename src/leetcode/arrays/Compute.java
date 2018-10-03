@@ -19,6 +19,9 @@ public class Compute {
         if (i > 6)
             return;
 
+        if(count > maxPerWeek)
+            return;
+
         if (i == 6) {
             if (hours.charAt(i) != '?') {
                 if (maxPerWeek == count + Character.getNumericValue(hours.charAt(i))) {
