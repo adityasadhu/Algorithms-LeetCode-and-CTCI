@@ -19,7 +19,7 @@ public class Compute {
         if (i > 6)
             return;
 
-        if(count > maxPerWeek)
+        if (count > maxPerWeek)
             return;
 
         if (i == 6) {
@@ -40,6 +40,8 @@ public class Compute {
         if (hours.charAt(i) != '?') {
             count += Character.getNumericValue(hours.charAt(i));
             Pattern += hours.charAt(i);
+            if (count > maxPerWeek)
+                return;
             answer(maxPerWeek, maxPerDay, i + 1, hours, count, Pattern, result);
             numOfCalls++;
         } else {
@@ -55,7 +57,7 @@ public class Compute {
 
         Compute compute = new Compute();
         List<String> result = new ArrayList<>();
-        compute.answer(3, 2, 0, "??2??000", 0, "", result);
+        compute.answer(3, 3, 0, "??2?000", 0, "", result);
         System.out.println(result);
         System.out.println(compute.getNumOfCalls());
 

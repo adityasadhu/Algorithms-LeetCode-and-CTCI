@@ -15,9 +15,7 @@
 
 package leetcode.arrays;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class topKFrequentElements {
 
@@ -33,19 +31,37 @@ public class topKFrequentElements {
             hashMap.put(i, hashMap.getOrDefault(i, 0) + 1);
         }
 
-        for (int key : hashMap.keySet()) {
-            int frequency = hashMap.get(key);
+        //bucketSort
 
-            if (bucket[frequency] == null) {
-                bucket[frequency] = new ArrayList<>();
+//        for (int key : hashMap.keySet()) {
+//            int frequency = hashMap.get(key);
+//
+//            if (bucket[frequency] == null) {
+//                bucket[frequency] = new ArrayList<>();
+//            }
+//            bucket[frequency].add(key);
+//        }
+//
+//        for (int pos = bucket.length - 1; pos >= 0 && result.size() < k; pos--) {
+//            if (bucket[pos] != null) {
+//                result.addAll(bucket[pos]);
+//            }
+//        }
+
+        TreeMap<Integer, List<Integer>> treeMap = new TreeMap<>();
+
+        for (int i : hashMap.keySet()) {
+            int frequency = hashMap.get(i);
+
+            if (!treeMap.containsKey(frequency)) {
+                treeMap.put(frequency, new LinkedList<>());
             }
-            bucket[frequency].add(key);
+            treeMap.get(frequency).add(i);
         }
 
-        for (int pos = bucket.length - 1; pos >= 0 && result.size() < k; pos--) {
-            if (bucket[pos] != null) {
-                result.addAll(bucket[pos]);
-            }
+        while (result.size() < k) {
+            Map.Entry<Integer, List<Integer>> entry = treeMap.pollLastEntry();
+            result.addAll(entry.getValue());
         }
 
         return result;
@@ -55,11 +71,8 @@ public class topKFrequentElements {
     public static void main(String[] args) {
 
         int[] array = {1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3};
-
-        List<Integer> answer = answer(array, 2);
+        List<Integer> answer = answer(array, 1);
         System.out.println(answer);
-
-
 
 
 
