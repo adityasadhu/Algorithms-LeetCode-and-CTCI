@@ -28,20 +28,25 @@ public class ReformattingDates {
         for (String s : dates) {
             String[] temp = s.split(" ");
             StringBuilder innerResult = new StringBuilder();
+
+
             innerResult.append(temp[2]);
             innerResult.append("-");
+
             if (hashMap.get(temp[1]) < 10) {
                 innerResult.append("0" + hashMap.get(temp[1]));
             } else {
                 innerResult.append(hashMap.get(temp[1]));
             }
             innerResult.append("-");
+
             temp[0] = temp[0].replaceAll("\\D+", "");
             if (Integer.parseInt(temp[0]) < 10) {
                 innerResult.append("0" + temp[0]);
             } else {
                 innerResult.append(temp[0]);
             }
+
             resultTemp.add(innerResult.toString());
         }
 
