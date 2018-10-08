@@ -16,8 +16,9 @@ public class Compute {
 
     public void answer(int maxPerWeek, int maxPerDay, int i, String hours, int count, String Pattern, List<String> result) {
 
-        if (i > 6)
+        if (i > 6) {
             return;
+        }
 
         if (count > maxPerWeek)
             return;

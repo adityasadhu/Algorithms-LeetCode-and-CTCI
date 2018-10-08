@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/TopKFrequentWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/queues/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/strings/ReformattingDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/strings/ReformattingDates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/arrays/Compute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arrays/Compute.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,29 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopKFrequentWords.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopKFrequentWords.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/strings/TopKFrequentWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="isIsomorphic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/isIsomorphic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/LongestSubstringWithoutRepeatingCharacters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -111,12 +93,35 @@
       <file leaf-file-name="Compute.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/Compute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+            <state relative-caret-position="309">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#136#137#0" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/practice/queues/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/LinkedlistCycle.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java" />
@@ -196,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/arrays/PerfectTeam.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/RequestHeader.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/arrays/Compute.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/topKFrequentElements.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/FrequencySort.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/isIsomorphic.java" />
@@ -204,6 +207,8 @@
         <option value="$PROJECT_DIR$/src/practice/stacks/DynamicArrayStack.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/ReformattingDates.java" />
         <option value="$PROJECT_DIR$/src/leetcode/strings/TopKFrequentWords.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/arrays/Compute.java" />
+        <option value="$PROJECT_DIR$/src/practice/queues/Queue.java" />
       </list>
     </option>
   </component>
@@ -250,21 +255,26 @@
               <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
               <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Ctci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
               <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
               <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="strings" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloombergLeetCodeSection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="queues" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,13 +304,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TopKFrequentWords">
-    <configuration name="FrequencySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.strings.FrequencySort" />
+  <component name="RunManager" selected="Application.Queue">
+    <configuration name="Compute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.Compute" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="PATTERN" value="leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.queues.Queue" />
+      <module name="BloombergLeetCodeSection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,30 +355,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="topKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.topKFrequentElements" />
-      <module name="BloombergLeetCodeSection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <list>
-      <item itemvalue="Application.topKFrequentElements" />
-      <item itemvalue="Application.FrequencySort" />
       <item itemvalue="Application.isIsomorphic" />
       <item itemvalue="Application.ReformattingDates" />
       <item itemvalue="Application.TopKFrequentWords" />
+      <item itemvalue="Application.Compute" />
+      <item itemvalue="Application.Queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.Compute" />
         <item itemvalue="Application.TopKFrequentWords" />
         <item itemvalue="Application.ReformattingDates" />
         <item itemvalue="Application.isIsomorphic" />
-        <item itemvalue="Application.FrequencySort" />
-        <item itemvalue="Application.topKFrequentElements" />
       </list>
     </recent_temporary>
   </component>
@@ -403,13 +413,6 @@
       <workItem from="1538424793377" duration="172000" />
       <workItem from="1538430601419" duration="18558000" />
       <workItem from="1538658630748" duration="2141000" />
-    </task>
-    <task id="LOCAL-00031" summary="added String Problem isUnique">
-      <created>1535782256236</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1535782256236</updated>
     </task>
     <task id="LOCAL-00032" summary="added String Problem StringCompression">
       <created>1535783529109</created>
@@ -747,11 +750,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538596079011</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="added StringProblem topKFrequentWords">
+      <created>1538663900949</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1538663900949</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204794000" />
+    <option name="totallyTimeSpent" value="206794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,6 +792,7 @@
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.3662375" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2496318" />
       <window_info id="UI Designer" order="4" />
@@ -812,7 +823,6 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5035765" side_tool="true" weight="0.3541147" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="5" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32793018" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298969" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.3662375" />
@@ -843,7 +853,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added ArrayProblem 3Sum" />
     <MESSAGE value="added StringProblem LongestCommonSubstring" />
     <MESSAGE value="added StringProblem LongestCommonSubsequence" />
     <MESSAGE value="added StringProblem FindMaxAvgSubarrayOfSizeK" />
@@ -868,7 +877,8 @@
     <MESSAGE value="added ArrayProblems" />
     <MESSAGE value="added ArrayProblem CombinationSum and Improved solution of compute" />
     <MESSAGE value="added ArrayProblem topKFrequentElements and StringProblem FrequencySort and isIsomorphic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ArrayProblem topKFrequentElements and StringProblem FrequencySort and isIsomorphic" />
+    <MESSAGE value="added StringProblem topKFrequentWords" />
+    <option name="LAST_COMMIT_MESSAGE" value="added StringProblem topKFrequentWords" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,13 +897,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/DegreeOfArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/graphs/NumberOfIslands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -926,13 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1179,18 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/Compute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SmallestSubstringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1214,8 +1198,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/strings/TopKFrequentWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        <state relative-caret-position="390">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/Compute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/strings/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/queues/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
