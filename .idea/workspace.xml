@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8a278f-d560-4ac2-b3fb-56b3d7d868ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/practice/queues/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/binarysearch/binarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arrays/Compute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arrays/Compute.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,15 +59,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSumSorted.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/TwoSumSorted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/linkedlists/Node.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,16 +103,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice/queues/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="584">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binarySearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/practice/binarysearch/binarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -158,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/linkedlists/OddEvenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/PallindromeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/ReorderList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/linkedlists/Rotatelist.java" />
@@ -209,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/strings/TopKFrequentWords.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arrays/Compute.java" />
         <option value="$PROJECT_DIR$/src/practice/queues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/practice/binarysearch/binarySearch.java" />
       </list>
     </option>
   </component>
@@ -274,7 +275,7 @@
               <item name="BloombergLeetCodeSection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="queues" type="462c0819:PsiDirectoryNode" />
+              <item name="binarysearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Queue">
+  <component name="RunManager" selected="Application.binarySearch">
     <configuration name="Compute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.Compute" />
       <module name="BloombergLeetCodeSection" />
@@ -345,30 +346,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="isIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.strings.isIsomorphic" />
+    <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.binarysearch.binarySearch" />
       <module name="BloombergLeetCodeSection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="PATTERN" value="practice.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.isIsomorphic" />
       <item itemvalue="Application.ReformattingDates" />
       <item itemvalue="Application.TopKFrequentWords" />
       <item itemvalue="Application.Compute" />
       <item itemvalue="Application.Queue" />
+      <item itemvalue="Application.binarySearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.binarySearch" />
         <item itemvalue="Application.Queue" />
         <item itemvalue="Application.Compute" />
         <item itemvalue="Application.TopKFrequentWords" />
         <item itemvalue="Application.ReformattingDates" />
-        <item itemvalue="Application.isIsomorphic" />
       </list>
     </recent_temporary>
   </component>
@@ -413,13 +414,6 @@
       <workItem from="1538424793377" duration="172000" />
       <workItem from="1538430601419" duration="18558000" />
       <workItem from="1538658630748" duration="2141000" />
-    </task>
-    <task id="LOCAL-00032" summary="added String Problem StringCompression">
-      <created>1535783529109</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1535783529109</updated>
     </task>
     <task id="LOCAL-00033" summary="added String Problem pallindromePermutation">
       <created>1535808689946</created>
@@ -757,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538663900949</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="added implementation of queue and refactored code of compute">
+      <created>1538963049719</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1538963049719</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206794000" />
+    <option name="totallyTimeSpent" value="208208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,12 +786,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5035765" side_tool="true" weight="0.3541147" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.319202" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.319202" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32917705" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.3662375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.3662375" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.2533137" />
@@ -853,7 +854,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added StringProblem LongestCommonSubstring" />
     <MESSAGE value="added StringProblem LongestCommonSubsequence" />
     <MESSAGE value="added StringProblem FindMaxAvgSubarrayOfSizeK" />
     <MESSAGE value="added StringProblem MinimumWindowSubstring and FindAllAnamgramsInAString" />
@@ -878,7 +878,8 @@
     <MESSAGE value="added ArrayProblem CombinationSum and Improved solution of compute" />
     <MESSAGE value="added ArrayProblem topKFrequentElements and StringProblem FrequencySort and isIsomorphic" />
     <MESSAGE value="added StringProblem topKFrequentWords" />
-    <option name="LAST_COMMIT_MESSAGE" value="added StringProblem topKFrequentWords" />
+    <MESSAGE value="added implementation of queue and refactored code of compute" />
+    <option name="LAST_COMMIT_MESSAGE" value="added implementation of queue and refactored code of compute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -897,13 +898,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/graphs/NumberOfIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/arrays/RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1224,13 +1218,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/queues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="584">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/binarysearch/binarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
