@@ -23,6 +23,7 @@ public class StackLinkedList {
 
     public void pop() {
         if (top == null) {
+            System.out.println("stack is empty nothing there to pop");
             return;
         }
         top = top.next;
@@ -49,6 +50,10 @@ public class StackLinkedList {
         stackLinkedList.push(10);
         stackLinkedList.push(20);
         stackLinkedList.printStack();
-        stackLinkedList.peek();
+//        stackLinkedList.peek();
+        stackLinkedList.pop();
+        stackLinkedList.pop();
+        stackLinkedList.printStack();
+        stackLinkedList.pop();
     }
 }

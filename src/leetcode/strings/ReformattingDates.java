@@ -38,8 +38,8 @@ public class ReformattingDates {
             } else {
                 innerResult.append(hashMap.get(temp[1]));
             }
-            innerResult.append("-");
 
+            innerResult.append("-");
             temp[0] = temp[0].replaceAll("\\D+", "");
             if (Integer.parseInt(temp[0]) < 10) {
                 innerResult.append("0" + temp[0]);
