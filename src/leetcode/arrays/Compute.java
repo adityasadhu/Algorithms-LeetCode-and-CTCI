@@ -58,7 +58,7 @@ public class Compute {
 
         Compute compute = new Compute();
         List<String> result = new ArrayList<>();
-        compute.answer(3, 3, 0, "??2?000", 0, "", result);
+        compute.answer(3, 1, 0, "???????", 0, "", result);
         System.out.println(result);
         System.out.println(compute.getNumOfCalls());
 

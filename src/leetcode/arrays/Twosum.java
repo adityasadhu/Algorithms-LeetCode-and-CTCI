@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 public class Twosum {
 
-    static public int[] answer (int[] array, int target){
+    static public int[] answer(int[] array, int target) {
 
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i = 0; i < array.length; i++) {
@@ -25,17 +25,18 @@ public class Twosum {
 
         for (int i = 0; i < array.length; i++) {
             int complement = target - array[i];
-            if(hashMap.containsKey(complement)){
-                return new int[] {i, hashMap.get(complement)};
+            if (hashMap.containsKey(complement)) {
+                return new int[]{i, hashMap.get(complement)};
             }
 
         }
         return null;
     }
+
     public static void main(String[] args) {
 
-        int []array = {2, 7, 11, 15};
-        int target = 9;
+        int[] array = {6, 12, 3, 9, 3, 5, 1};
+        int target = 12;
         int[] answer = answer(array, target);
         for (int i = 0; i < answer.length; i++) {
             System.out.println(answer[i]);

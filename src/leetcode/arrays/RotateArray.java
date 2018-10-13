@@ -40,12 +40,35 @@ public class RotateArray {
         return array;
     }
 
+    static public int[] answerOptimized(int[] array, int k) {
+        int length = array.length;
+
+        k = k % length;
+
+        reverse(array, 0, length - 1);
+        reverse(array, 0, k - 1);
+        reverse(array, k, length - 1);
+
+        return array;
+
+    }
+
+    static public void reverse(int[] array, int start, int end) {
+        while (start < end) {
+            int temp = array[start];
+            array[start] = array[end];
+            array[end] = temp;
+            start++;
+            end--;
+        }
+    }
+
 
     public static void main(String[] args) {
 
         int[] array = {-1, -100, 3, 99};
 
-        int[] answer = answer(array, 2);
+        int[] answer = answerOptimized(array, 5);
 
         for (int i = 0; i < answer.length; i++) {
             System.out.println(answer[i]);

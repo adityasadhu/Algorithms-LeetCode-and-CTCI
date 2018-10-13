@@ -56,7 +56,7 @@ public class MinimumInRotatedSortedArray {
     public static void main(String[] args) {
 
 
-        int[] array = {3, 4, 5, 1, 2};
+        int[] array = {3, 4, 5, 0, 1, 2};
 
         int answer = answer(array);
 

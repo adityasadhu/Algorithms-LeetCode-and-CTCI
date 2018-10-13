@@ -77,7 +77,7 @@ public class Stripe {
             if (!driverHashMap.containsKey(driverAccount)) {
                 driverHashMap.put(driverAccount, driverAmount);
             } else {
-                driverHashMap.put(driverAccount, driverHashMap.get(merchantAccount) + driverAmount);
+                driverHashMap.put(driverAccount, driverHashMap.get(driverAccount) + driverAmount);
             }
         }
 
@@ -112,10 +112,12 @@ public class Stripe {
 
         List<String> array = new ArrayList<>();
         array.add("API: amount=1000&merchant=123456789&destination[account]=111111&destination[amount]=877");
-        array.add("API: amount=1000&merchant=123456789&destination[account]=111112&destination[amount]=877");
+        array.add("API: amount=1000&merchant=123456788&destination[account]=111112&destination[amount]=879");
         array.add("BAL: merchant=123456789");
+        array.add("BAL: merchant=123456788");
+
         array.add("BAL: merchant=111111");
-        //array.add("BAL: merchant=111112");
+        array.add("BAL: merchant=111112");
         answer(array);
 
 
