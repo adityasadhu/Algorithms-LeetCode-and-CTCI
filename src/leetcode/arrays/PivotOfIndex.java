@@ -23,7 +23,6 @@ public class PivotOfIndex {
                 return i;
             }
             leftSum += array[i];
-
         }
         return -1;
     }
