@@ -3,7 +3,6 @@ package leetcode.arrays;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Stripe {
 
@@ -42,7 +41,6 @@ public class Stripe {
                 String[] ini = st.split("=");
                 tempHashMap.put(ini[0], ini[1]);
             }
-
             if (tempHashMap.containsKey("amount")) {
                 amount = Double.parseDouble(tempHashMap.get("amount"));
             }
@@ -63,11 +61,7 @@ public class Stripe {
 
 
             merchantAmount = amount - stripeFee - driverAmount;
-//            System.out.println("amount is " + amount);
-//            System.out.println("driverAmount is " + driverAmount);
-//            System.out.println("driverAccount is " + driverAccount);
-//            System.out.println("merchantAccount is " + merchantAccount);
-//            System.out.println("stripeFee is " + stripeFee);
+
             if (!merchantHashMap.containsKey(merchantAccount)) {
                 merchantHashMap.put(merchantAccount, merchantAmount);
             } else {
@@ -85,22 +79,14 @@ public class Stripe {
 
             String[] temp2 = te.split("=");
 
-//            System.out.println(temp2[1]);
             if (driverHashMap.containsKey(temp2[1])) {
-
-                //answer.add(driverHashMap.get(temp2[1]) * 100);
                 int temp3 = (int) Math.round(driverHashMap.get(temp2[1]) * 100);
-                //System.out.println(temp3);
                 answerFinal.add(temp3);
-
             } else if (merchantHashMap.containsKey(temp2[1])) {
                 int temp3 = (int) Math.round(merchantHashMap.get(temp2[1]) * 100);
-                //answer.add(merchantHashMap.get(temp2[1]) * 100);
-                //System.out.println(temp3);
                 answerFinal.add(temp3);
             }
         }
-
 
 
         System.out.println(answerFinal);
