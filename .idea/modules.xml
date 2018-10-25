@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BloombergLeetCodeSection.iml" filepath="$PROJECT_DIR$/BloombergLeetCodeSection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algos.iml" filepath="$PROJECT_DIR$/Algos.iml" />
     </modules>
   </component>
 </project>
