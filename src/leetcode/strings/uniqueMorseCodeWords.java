@@ -33,7 +33,6 @@ import java.util.HashSet;
 
 public class uniqueMorseCodeWords {
 
-
     static public int answer(String[] words) {
 
         String[] morse = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};
