@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0c296a93-90be-4e37-8e48-540ad757a4b1" name="Default" comment="Fixing gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="1d3429ce-f188-4d0b-afc4-1d888bd7aac6" name="Default" comment="" />
+>>>>>>> develop
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +22,11 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
+<<<<<<< HEAD
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+=======
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+>>>>>>> develop
             </state>
           </provider>
         </entry>
@@ -153,7 +161,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540499069625</updated>
+<<<<<<< HEAD
       <workItem from="1540499072908" duration="289000" />
+=======
+      <workItem from="1540499072908" duration="529000" />
+>>>>>>> develop
     </task>
     <task id="LOCAL-00001" summary="Fixing gitignore">
       <created>1540499152109</created>
@@ -162,6 +174,7 @@
       <option name="project" value="LOCAL" />
       <updated>1540499152109</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
@@ -170,6 +183,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+=======
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <editor active="true" />
+>>>>>>> develop
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -207,15 +230,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixing gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixing gitignore" />
   </component>
+=======
+>>>>>>> develop
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
+<<<<<<< HEAD
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+=======
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+>>>>>>> develop
         </state>
       </provider>
     </entry>
