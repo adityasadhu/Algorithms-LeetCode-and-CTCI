@@ -2,3 +2,4 @@ out/
 venv/
 .idea/
 Algos.iml
+.DS_Store
