@@ -1,5 +1,5 @@
 out/
 venv/
 .idea/
-Algos.iml
+*.iml
 .DS_Store
