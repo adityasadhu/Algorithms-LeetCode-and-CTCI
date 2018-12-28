@@ -26,6 +26,10 @@
 
 package leetcode.strings;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class EditDistance {
 
 
@@ -65,8 +69,12 @@ public class EditDistance {
     }
 
     public static int minimum(int a, int b, int c) {
-        int l = Math.min(a, b);
-        return Math.min(l, c);
+
+        List<Integer> list = Arrays.asList(a, b, c);
+        Collections.sort(list);
+
+        return list.get(0);
+
     }
 
     public static void main(String[] args) {
