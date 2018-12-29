@@ -37,7 +37,7 @@ public class findShortestPath {
 
         int answer = 0;
 
-        boolean[][] visited = new boolean[numCols][numRows];
+        boolean[][] visited = new boolean[numRows][numCols];
         int[][] grid = new int[numRows][numCols];
 
         for (int i = 0; i < numRows; i++) {
