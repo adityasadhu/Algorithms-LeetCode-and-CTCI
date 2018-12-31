@@ -36,6 +36,7 @@ public class shortestBridge {
     int[] yAxis = {0, -1, 0, 1};
 
     public int answer(int[][] grid) {
+
         Queue<Block> queue = new LinkedList<>();
 
         int rowLength = grid.length;
@@ -47,15 +48,18 @@ public class shortestBridge {
                 break;
             for (int j = 0; j < grid.length; j++) {
                 if (grid[i][j] == 1) {
-                    dfs(grid, visited, i, j, rowLength, colLength, queue);
+                    dfsToFindAnIsland(grid, visited, i, j, rowLength, colLength, queue);
                     found = true;
                     break;
                 }
-
-
             }
         }
 
+        return expandTheFoundIsland(grid, visited, queue, rowLength, colLength);
+
+    }
+
+    public int expandTheFoundIsland(int[][] grid, boolean[][] visited, Queue<Block> queue, int rowLength, int colLength) {
         int answer = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
@@ -75,25 +79,22 @@ public class shortestBridge {
             }
             answer++;
         }
-
         return -1;
+
     }
 
-    public void dfs(int[][] grid, boolean[][] visited, int i, int j, int rowLength, int colLength, Queue<Block> queue) {
+    public void dfsToFindAnIsland(int[][] grid, boolean[][] visited, int i, int j, int rowLength, int colLength, Queue<Block> queue) {
         if (i < 0 || j < 0 || i >= rowLength || j >= colLength || visited[i][j] || grid[i][j] == 0) {
             return;
         }
         visited[i][j] = true;
         queue.offer(new Block(i, j));
 
-        dfs(grid, visited, i - 1, j, rowLength, colLength, queue);
-        dfs(grid, visited, i + 1, j, rowLength, colLength, queue);
-        dfs(grid, visited, i, j - 1, rowLength, colLength, queue);
-        dfs(grid, visited, i, j + 1, rowLength, colLength, queue);
-
-
+        dfsToFindAnIsland(grid, visited, i - 1, j, rowLength, colLength, queue);
+        dfsToFindAnIsland(grid, visited, i + 1, j, rowLength, colLength, queue);
+        dfsToFindAnIsland(grid, visited, i, j - 1, rowLength, colLength, queue);
+        dfsToFindAnIsland(grid, visited, i, j + 1, rowLength, colLength, queue);
     }
-
 
     public class Block {
         int i;
@@ -104,7 +105,6 @@ public class shortestBridge {
             this.j = j;
         }
     }
-
 
     public static void main(String[] args) {
 
