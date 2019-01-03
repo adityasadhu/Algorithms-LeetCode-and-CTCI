@@ -54,18 +54,22 @@ public class findShortestPath {
         Queue<Block> queue = new LinkedList<Block>();
         queue.offer(new Block(i, j));
         while (!queue.isEmpty()) {
-            Block b = queue.poll();
-            if (grid[b.x][b.y] == 9)
-                return answer;
-            answer++;
-            for (int k = 0; k < 4; k++) {
-                int newX = b.x + xAxis[k];
-                int newY = b.y + yAxis[k];
-                if (shouldExplore(newX, newY, numRows, numCols, grid, visited)) {
-                    visited[newX][newY] = true;
-                    queue.offer(new Block(newX, newY));
+            int size = queue.size();
+            while (size > 0) {
+                Block b = queue.poll();
+                if (grid[b.x][b.y] == 9)
+                    return answer;
+                for (int k = 0; k < 4; k++) {
+                    int newX = b.x + xAxis[k];
+                    int newY = b.y + yAxis[k];
+                    if (shouldExplore(newX, newY, numRows, numCols, grid, visited)) {
+                        visited[newX][newY] = true;
+                        queue.offer(new Block(newX, newY));
+                    }
                 }
+                size--;
             }
+            answer++;
         }
 
         return -1;
