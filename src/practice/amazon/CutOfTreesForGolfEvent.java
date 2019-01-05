@@ -63,7 +63,7 @@ public class CutOfTreesForGolfEvent {
 
     private int cutOffTree(List<List<Integer>> forest) {
 
-        PriorityQueue<point> queue = new PriorityQueue<>((a, b) -> a.value - b.value);
+        PriorityQueue<point> queue = new PriorityQueue<>(Comparator.comparingInt(a -> a.value));
 
         int rowLength = forest.size();
         int colLength = forest.get(0).size();
@@ -143,6 +143,5 @@ public class CutOfTreesForGolfEvent {
         list.add(nestedList3);
         CutOfTreesForGolfEvent c = new CutOfTreesForGolfEvent();
         System.out.println(c.cutOffTree(list));
-
     }
 }
