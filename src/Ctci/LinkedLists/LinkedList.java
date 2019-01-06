@@ -1,10 +1,6 @@
 package Ctci.LinkedLists;
 
-
-
-
 public class LinkedList {
-
 
     ListNode head;
 
@@ -51,7 +47,6 @@ public class LinkedList {
     }
 
     public void show(ListNode head) {
-
         ListNode current = head;
         while (current != null) {
             System.out.println(current.data);
@@ -61,16 +56,17 @@ public class LinkedList {
 
     public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
+        linkedList.insertAtBegin(new ListNode(0));
         linkedList.append(10);
         linkedList.append(20);
         linkedList.append(30);
-        ListNode node = new ListNode(10);
+        ListNode node = new ListNode(40);
         linkedList.insertAtEnd(node);
         ListNode head = linkedList.getHead();
-        //linkedList.show(head);
+        linkedList.show(head);
 
-        LinkedList l2 = new LinkedList();
+        /*LinkedList l2 = new LinkedList();
         l2.append(1);
-        l2.show(l2.getHead());
+        l2.show(l2.getHead());*/
     }
 }

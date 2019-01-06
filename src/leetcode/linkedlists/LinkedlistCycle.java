@@ -30,11 +30,11 @@ public class LinkedlistCycle extends LinkedList {
         Node hasCycleNode = null;
 
         while (current != null) {
-            if(hashSet.contains(current)){
+            if (hashSet.contains(current)) {
                 hasCycleNode = current;
-                removeCycle(head, current);
+                removeCycle(current);
                 return true;
-            }else{
+            } else {
                 hashSet.add(current);
             }
             current = current.next;
@@ -43,10 +43,12 @@ public class LinkedlistCycle extends LinkedList {
     }
 
 
-    public void removeCycle(Node head, Node node){
-        Node current = head;
+    public void removeCycle(Node node) {
+        Node current = node;
 
-        while (current.next == node){
+        while (true) {
+            if (current.next == node)
+                break;
             current = current.next;
         }
         current.next = null;
@@ -59,12 +61,13 @@ public class LinkedlistCycle extends LinkedList {
         linkedlistCycle.append(20);
         linkedlistCycle.append(30);
         linkedlistCycle.append(40);
-        head.next.next.next.next = head;
+        head.next.next.next.next = head.next;
         boolean result = linkedlistCycle.hasCycleHashSet(head);
         System.out.println(result);
+        linkedlistCycle.show(head);
         boolean result2 = linkedlistCycle.hasCycleHashSet(head);
         System.out.println(result2);
-
+        linkedlistCycle.show(head);
 
 
     }
