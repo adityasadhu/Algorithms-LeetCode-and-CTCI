@@ -44,8 +44,6 @@ public class MinimumInRotatedSortedArray {
             } else {
                 last = mid - 1;
             }
-            first++;
-            last--;
         }
 
         return -1;
