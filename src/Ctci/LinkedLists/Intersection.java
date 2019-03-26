@@ -12,8 +12,8 @@ public class Intersection extends LinkedList {
         ListNode b = head2;
 
         while (a != b) {
-            a = a == null ? head1 : a.next;
-            b = b == null ? head2 : b.next;
+            a = a == null ? head2 : a.next;
+            b = b == null ? head1 : b.next;
         }
 
         return a;
