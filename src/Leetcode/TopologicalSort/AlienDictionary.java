@@ -98,7 +98,6 @@ public class AlienDictionary {
 
         indegree.keySet().stream().filter(c -> indegree.get(c) == 0).forEach(c -> queue.offer(c));
 
-
         while (!queue.isEmpty()) {
             char c = queue.poll();
             result.append(c);
