@@ -34,8 +34,8 @@ public class BreadthFirstSearch<T> {
             }
             if (g.getAdjacencyList().containsKey(t)) {
                 List<T> list = (List<T>) g.getAdjacencyList().get(t);
-                list.stream().forEach(vertex -> {
-                    if (!visited.contains(vertex)){
+                list.forEach(vertex -> {
+                    if (!visited.contains(vertex)) {
                         queue.offer(vertex);
                     }
                 });

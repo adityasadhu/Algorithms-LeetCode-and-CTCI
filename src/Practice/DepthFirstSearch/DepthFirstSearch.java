@@ -41,7 +41,7 @@ public class DepthFirstSearch<T> {
             }
             if (g.getAdjacencyList().containsKey(pop)) {
                 List<?> l = (List) g.getAdjacencyList().get(pop);
-                l.stream().forEach(vertex -> {
+                l.forEach(vertex -> {
                     if (!visited.contains(vertex)) {
                         stack.push((T) vertex);
                     }

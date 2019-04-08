@@ -38,10 +38,7 @@ public class Graph<T> {
     }
 
     public T getVertex() {
-        for (Map.Entry<T, List<T>> iterator : adjacencyList.entrySet()) {
-            return iterator.getKey();
-        }
-        return null;
+        return adjacencyList.entrySet().stream().findFirst().map(Map.Entry::getKey).orElse(null);
     }
 
     public Map<T, List<T>> getAdjacencyList() {
